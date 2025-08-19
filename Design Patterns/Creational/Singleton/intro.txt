@@ -1,0 +1,2 @@
+-> This is one of the most simple and straightforward to understand.
+-> it guarantees that a class has just one instance and offers a way to access it globally.

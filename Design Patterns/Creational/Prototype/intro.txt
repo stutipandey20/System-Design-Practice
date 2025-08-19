@@ -1,0 +1,2 @@
+-> this allows us to hide the complexity of making new instances from the client. 
+-> the concept is to copy an existing object rather than creating a new instance from scratch, something that may include costly operations.

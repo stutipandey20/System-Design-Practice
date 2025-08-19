@@ -1,0 +1,2 @@
+-> this is useful when it's necessary to separate the construction of an object from it's implementation.
+-> Using this pattern, objects can be produced without having to define the exact class of object to be created.

@@ -1,0 +1,2 @@
+-> separates the construction of a complex object from its representation so that the same construction process can create different representations
+-> it helps in constructing a complex object step by step and the final step will return the object.
