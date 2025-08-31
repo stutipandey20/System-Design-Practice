@@ -19,7 +19,6 @@ Different types of design patterns in JAVA:
 # Behavioral Patterns (Communication between objects)
 => these deal with how objects interact and communicate, distributing responsibilities efficiently.
 
-
 ## Major different types:
 
 1. Creational Patterns (5)
@@ -55,7 +54,5 @@ Different types of design patterns in JAVA:
 ✅ Summary:
 
 Creational → Object creation (Singleton, Factory, Builder, Prototype, Abstract Factory).
-
 Structural → Object/class composition (Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy).
-
 Behavioral → Object communication & responsibilities (Observer, Strategy, Command, etc.).
