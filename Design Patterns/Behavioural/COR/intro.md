@@ -8,7 +8,7 @@ Process the request, OR
 
 Pass it to the next handler.
 
-🔹 Structure
+## 🔹 Structure
 
 Handler (interface/abstract class) → defines handleRequest().
 
@@ -18,7 +18,7 @@ Client → sends request into the chain.
 
 Example: Request Logging → Authentication → Authorization
 
-🔹 Real-World Use Cases
+## 🔹 Real-World Use Cases
 
 Servlet Filters in Java (logging, auth, compression, etc.)
 
@@ -28,8 +28,10 @@ Exception handling → multiple catch handlers in sequence
 
 Middleware in Express.js / FastAPI
 
-🔹 Benefits
+## 🔹 Benefits
 
 ✔️ Loose coupling between sender & receiver
 ✔️ Open/Closed principle → add new handlers without changing existing ones
 ✔️ Flexible & reusable handlers
+✔️ Single Responsibility Principle: Each handler in the chain has one job: either to handle the request or to pass it to the next handler.
+✔️ Fallback Mechanism: If a request isn’t handled by any of the handlers, the chain can include a fallback option. 
