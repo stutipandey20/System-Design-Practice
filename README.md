@@ -12,7 +12,8 @@ system-design/
 -> LLD/              → Low-Level Designs (class & sequence diagrams, OOP)
 
 -> design-patterns/  → Creational, Structural, Behavioral patterns
-    -> case-studies/     → Real-world system breakdowns (Netflix, Uber, etc.)
+
+-> case-studies/     → Real-world system breakdowns (Netflix, Uber, etc.)
 
 cheatsheets/      → Quick notes on DB, caching, scaling, API design
 
@@ -73,6 +74,7 @@ Structural
 
 
 ## High-Level Design (HLD)
+
 System requirements (functional & non-functional)
 
 Architecture diagrams (monolith, microservices, event-driven)
@@ -93,15 +95,15 @@ Key concepts:
     CAP Theorem, Consistency vs Availability
 
 ## Low-Level Design (LLD)
+
 Class diagrams & sequence diagrams
 
 Detailed module interactions
 
-Example problems:
-
-    (TBI)
+Example problems: (TBI)
 
 ## Goals
+
 Build a solid foundation in system design
 
 Practice HLD + LLD for interviews & projects
